@@ -194,3 +194,60 @@ nav a:hover {
     font-size: 14px;
     font-weight: 600;
 }
+/* Membership section */
+.membership {
+    background-color: #071629;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.membership h2 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.membership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto 60px auto;
+}
+
+.membership-item {
+    text-align: center;
+}
+
+.membership-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.membership-item h3 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.membership-item p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.register-btn {
+    background-color: #C271FF;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.register-btn:hover {
+    background-color: #a855e0;
+}
