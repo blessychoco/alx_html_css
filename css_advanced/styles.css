@@ -72,3 +72,43 @@ nav a:hover {
 .banner button:hover {
     background-color: #0056b3;
 }
+/* Quotes section */
+.quotes {
+    background-color: #C271FF;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.quote-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.quotes blockquote {
+    font-size: 22px;
+    font-style: italic;
+    color: white;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.quote-author {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.quote-title {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+}
