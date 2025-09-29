@@ -299,3 +299,46 @@ nav a:hover {
         gap: 40px;
     }
 }
+/* Footer */
+footer {
+    background-color: #071629;
+    padding: 60px 20px 40px;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    height: 40px;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+
+.social-links a img:hover {
+    opacity: 1;
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 12px;
+}
